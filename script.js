@@ -220,9 +220,6 @@
         };
 
         window.addEventListener('scroll', highlightNav);
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
-<script>
 var setVanta = ()=>{
 if (window.VANTA) window.VANTA.BIRDS({
   el: ".s-page-1 .s-section-1 .s-section",
@@ -240,8 +237,7 @@ _strk.push(function() {
   setVanta()
   window.edit_page.Event.subscribe( "Page.beforeNewOneFadeIn", setVanta )
 })
-</script>
-
         // Initialize
 
         highlightNav();
+
