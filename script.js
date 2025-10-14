@@ -220,24 +220,9 @@
         };
 
         window.addEventListener('scroll', highlightNav);
-var setVanta = ()=>{
-if (window.VANTA) window.VANTA.BIRDS({
-  el: ".s-page-1 .s-section-1 .s-section",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color1: 0x8e1b1b
-})
-}
-_strk.push(function() {
-  setVanta()
-  window.edit_page.Event.subscribe( "Page.beforeNewOneFadeIn", setVanta )
-})
+
         // Initialize
 
         highlightNav();
+
 
